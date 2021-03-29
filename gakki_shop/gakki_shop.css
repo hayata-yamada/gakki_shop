@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    
+}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.block {
+    text-align: center;
+}
+
+.item {
+    float: left;
+    width: 220px;
+    text-align: center;
+    display: inline-block;
+}
+
+.item-1{
+    float: left;
+    width: 220px;
+    text-align: center;
+    clear: both;
+}
+
+.item-2{
+    float: left;
+    clear: both;
+}
+
+.buy{
+    clear: both;
+    text-align: center;
+}
+
+.text { 
+    text-align: center;   
+}    
+
+.form {
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+}
+
+table {
+    width: 660px;
+    border-collapse: collapse;
+
+}
+
+table,
+tr,
+th,
+td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
